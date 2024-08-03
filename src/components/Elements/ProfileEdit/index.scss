@@ -1,0 +1,53 @@
+
+.profile-edit-inputs {
+  display: grid;
+  margin-top: 40px;
+  gap: 20px;
+  
+
+  label {
+    font-family: system-ui;
+    margin-bottom: -15px;
+  }
+
+  .edit-input {
+    width: 300px;
+    height: 40px;
+    
+  }
+}
+
+.save-container {
+  display: flex;
+  justify-content: center;
+}
+
+.save-btn {
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  background-color: yellow;
+  border-radius: 30px;
+  outline: none;
+  border: none;
+  font-family: system-ui;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.close-icon {
+  cursor: pointer;
+  color: yellow;
+}
+
+.common-textArea{
+  border-radius: 20px;
+  background: white;
+  height: 30px;
+  padding: 30px;
+  color: #212121;
+  font-size: medium;
+  font-family: Poppins;
+}

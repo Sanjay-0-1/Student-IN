@@ -1,0 +1,39 @@
+nav{
+    position:fixed;
+    width: 1180px;
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(0, 0, 0, 0.60);
+    backdrop-filter: blur(30px);
+    height: 76px;
+    top:19px;
+    left:145px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 300;
+    align-items: center;
+    padding: 26px;
+    
+    
+}
+
+.logo{
+    color: #F5F5F5;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+   
+    
+}
+
+.yellow{
+    color: #FAB608;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
